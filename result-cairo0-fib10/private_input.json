@@ -1,0 +1,7 @@
+{
+    "trace_path": "./result/trace.json",
+    "memory_path": "./result/memory.json",
+    "pedersen": [],
+    "range_check": [],
+    "bitwise": []
+}
