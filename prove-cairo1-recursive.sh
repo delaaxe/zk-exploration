@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 source .env
 
 rm -rf src result
-cp -R src-cairo1 src
+cp -R src-cairo1-recursive src
 mkdir result
 
 echo "Running circuit..."
