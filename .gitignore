@@ -1,7 +1,8 @@
 cairo-vm
 corelib
 integrity*
-result
+result*
+src
 target
 
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore

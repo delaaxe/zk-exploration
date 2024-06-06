@@ -11,7 +11,7 @@ mkdir result
 echo "Running circuit..."
 ./cairo-vm/target/release/cairo1-run src/circuit.cairo \
     --proof_mode \
-    --layout=small \
+    --layout=recursive \
     --air_public_input=result/public_input.json \
     --air_private_input=result/private_input.json \
     --trace_file=result/trace.json \
